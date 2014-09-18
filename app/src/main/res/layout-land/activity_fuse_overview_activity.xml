@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/listView"
+        android:layout_weight=".4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".55">
+        <FrameLayout
+            android:id="@+id/preview"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" />
+    </ScrollView>
+
+</LinearLayout>

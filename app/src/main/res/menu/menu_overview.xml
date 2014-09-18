@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/hello"
+        android:title="" />
+    <item android:id="@+id/settings"
+        android:title="@string/settings_text" />
+    <item android:id="@+id/refresh"
+        android:showAsAction="ifRoom"
+        android:title="@string/refresh_text"
+        android:icon="@drawable/refresh"/>
+    <item android:id="@+id/logout"
+        android:icon="@drawable/logout"
+        android:showAsAction="ifRoom"
+        android:title="@string/logout_text" />
+</menu>

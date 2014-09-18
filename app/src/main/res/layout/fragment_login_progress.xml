@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.vt.recsports.fuse.FuseLoginProgress">
+
+    <ImageView
+        android:id="@+id/fuseLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:contentDescription="@string/fuse_logo_description"
+        android:src="@drawable/fuselogo"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_pending"
+        android:id="@+id/loginStatusText"
+        android:layout_below="@+id/loginStatus"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginStatus"
+        android:layout_alignBottom="@+id/fuseLogo"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

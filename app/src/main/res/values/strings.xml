@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fuse</string>
+    <string name="overview_name">Dashboard</string>
+    <string name="login_text">Log In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="email_hint">user@example.com</string>
+    <string name="account_new">Create an Account</string>
+    <string name="login_pending">Logging in…</string>
+    <string name="activity_latest">Your Latest Activity</string>
+    <string name="activity_details">Activity Details</string>
+    <string name="activity_all">Your Activities</string>
+    <string name="logout_text">Logout</string>
+    <string name="search_text">Search</string>
+    <string name="settings_text">Settings</string>
+    <string name="refresh_text">Refresh Data</string>
+    <string name="date_text">Date</string>
+    <string name="activity_type_text">Activity</string>
+    <string name="trainer_text">Trainer</string>
+    <string name="trainer_notes_text">Notes from the trainer</string>
+    <string name="mark_as_favorite">Mark as favorite</string>
+    <string name="marked_as_favorite">Marked as favorite</string>
+    <string name="click_to_animate">Click image to view animation</string>
+    <string name="fuse_logo_description">VT RecSports Fuse</string>
+    <string name="fuse_base_url">http://128.173.129.21:3000</string>
+    <string name="fuse_login_path">/login</string>
+    <string name="fuse_activity_list_path">/activity</string>
+    <string name="fuse_activity_detail_path">/activity/</string>
+    <string name="cookie_name">connect.sid</string>
+    <string name="settings_sync">Sync Settings</string>
+    <string name="settings_sync_timer">Sync Delay</string>
+    <string name="settings_sync_timer_summary">Current Sync: %s</string>
+    <string name="error_login">Unable to log in at this time.</string>
+</resources>

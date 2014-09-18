@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView
+        android:id="@+id/fuseLogo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/fuse_logo_description"
+        android:layout_above="@+id/emailAddressValue"
+        android:src="@drawable/fuselogo" />
+
+    <TextView
+        android:id="@+id/emailAddressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/emailAddressValue"
+        android:layout_toLeftOf="@+id/emailAddressValue"
+        android:textSize="16sp"
+        android:text="@string/email"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/emailAddressValue"
+        android:layout_marginRight="10dp"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textSize="16sp"
+        android:inputType="textEmailAddress" />
+    
+    <TextView
+        android:id="@+id/passwordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/passwordValue"
+        android:layout_toLeftOf="@+id/passwordValue"
+        android:text="@string/password"
+        android:textSize="16sp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/passwordValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/emailAddressValue"
+        android:layout_alignRight="@+id/emailAddressValue"
+        android:layout_below="@+id/emailAddressValue"
+        android:textSize="16sp"
+        android:inputType="textPassword" />
+    
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/passwordValue"
+        android:layout_alignRight="@+id/emailAddressValue"
+        android:layout_below="@+id/passwordValue"
+        android:textSize="16sp"
+        android:text="@string/login_text"
+        android:background="@drawable/button" />
+
+</RelativeLayout>

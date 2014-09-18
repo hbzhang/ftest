@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/settings_sync">
+        <ListPreference
+            android:entries="@array/syncFrequency"
+            android:entryValues="@array/syncFrequencyValues"
+            android:defaultValue="30"
+            android:title="@string/settings_sync_timer"
+            android:persistent="true"
+            android:summary="@string/settings_sync_timer_summary" />
+        </PreferenceCategory>
+</PreferenceScreen>
